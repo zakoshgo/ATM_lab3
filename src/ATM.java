@@ -28,7 +28,7 @@ public class ATM {
         if(this.username == username && this.password == password && createdAccountFlag)
         {
             loginAccountFlag = true;
-            return "success";
+            return "success login";
         }
         else return "invalid username or password or you have to create account first";
 
